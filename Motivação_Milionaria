@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motivação Milionária</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #e6b800;
+    }
+
+    p.description {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #cccccc;
+    }
+
+    .link-button {
+      display: block;
+      background-color: #1a1a1a;
+      border: 2px solid #e6b800;
+      color: #e6b800;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 14px;
+      margin: 15px 0;
+      border-radius: 12px;
+      transition: 0.3s ease;
+    }
+
+    .link-button:hover {
+      background-color: #e6b800;
+      color: #0d0d0d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Motivação Milionária</h1>
+    <p class="description">A única coisa entre você e sua primeira fortuna é a decisão de começar. Conecte-se com quem já está no caminho.</p>
+    <a class="link-button" href="https://instagram.com/SEU_USUARIO" target="_blank">Instagram</a>
+    <a class="link-button" href="https://t.me/SEU_GRUPO" target="_blank">Telegram</a>
+    <a class="link-button" href="https://wa.me/SEU_NUMERO" target="_blank">WhatsApp</a>
+  </div>
+</body>
+</html>
